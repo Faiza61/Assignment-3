@@ -1,0 +1,86 @@
+
+  @tailwind base;
+  @tailwind components;
+  @tailwind utilities;
+  
+  .homeContainer {
+    background-color: rgb(232, 171, 150);
+    width: 100%;
+    font-family: 'Times New Roman', Times, serif;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .childContainer {
+    background-color: rgb(232, 171, 150);
+    width: 100%;
+    text-align:justify;
+  }
+  
+  h1 {
+    margin-top: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 300px;
+    border-radius: 3px;
+    text-decoration: underline;
+
+  }
+  
+  .abc {
+    color: rgb(239, 47, 47);
+    font-size: 80px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .content {
+    display: flex;
+    justify-content: space-between; /* Pushes text to left and image to right */
+    align-items: center;
+    width: 100%;
+    margin-top: 2px;
+  }
+  
+  .profile-image {
+    margin-left: auto; /* Push the image to the far right */
+   
+    
+  
+  }
+  
+  .header{
+    background-color:rgb(232, 116, 103);
+    height: 75px;
+    width:100%;
+    border: 2px solid rgb(244, 78, 59);
+    color:rgb(177, 28, 28)
+}
+.header-buttons{
+    display: flex;
+    text-align: left;
+    align-items: flex-end;
+    padding-left: 35%;
+    gap:40px;
+    padding-top: 5px;
+    border-radius: 8px;
+    font-size: 35px;
+
+}
+
+
+
+footer{
+    
+    background-color:rgb(232, 116, 103);
+     /* position: relative; */
+     position:relative;
+    margin-top: 50%; 
+ 
+  
+}
+ body{
+  background-color: rgb(232, 171, 150);
+ }
+
